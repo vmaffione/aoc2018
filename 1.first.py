@@ -1,4 +1,4 @@
-f = open("1.input", "r")
+f = open("1.first.input", "r")
 lines = f.readlines()
 f.close()
 s = sum([int(line) for line in lines])
